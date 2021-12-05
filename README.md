@@ -12,6 +12,9 @@ The files are organized with the intention of advancing the process of creating 
 - You can add the compiled CSS directly to your project header using the link below or clone the repository to modify the files. <br>
 `<link rel="stylesheet" href="https://closeluca1.github.io/pattern-sass/css/mainstyle.css">`
 
+- view on git hub pages
+https://closeluca1.github.io/pattern-sass/
+
 
 # Images
 - package.json <br>
