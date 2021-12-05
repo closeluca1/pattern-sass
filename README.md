@@ -15,6 +15,8 @@ The files are organized with the intention of advancing the process of creating 
 - view on git hub pages
 https://closeluca1.github.io/pattern-sass/
 
+- The typography is responsive using the css clamp() function
+
 
 # Images
 - package.json <br>
