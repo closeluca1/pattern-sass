@@ -1,0 +1,35 @@
+.card {
+    width: 16rem;
+    height: 350px;
+    margin: 1rem .5vw 0 .5vw;
+    border: none;
+    border-radius: 10px;
+    overflow: hidden;
+    aspect-ratio: 16 / 9 !important;
+    -webkit-box-shadow: 0px 0px 18px 0px rgba(18, 10, 52, 0.05);
+    box-shadow: 0px 0px 18px 0px rgba(18, 10, 52, 0.05);
+
+    .card-body {
+        .card-title {
+            overflow: hidden;
+            white-space: nowrap;
+            text-overflow: ellipsis;
+            margin-bottom: 0;
+        }
+
+        .date-card {
+            small{
+                opacity: .6;
+                color: $dark;
+            }
+        }
+
+        .card-text {
+            display: -webkit-box;
+            -webkit-line-clamp: 3;
+            -webkit-box-orient: vertical;
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
+    }
+}

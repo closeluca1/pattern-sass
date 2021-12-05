@@ -1,0 +1,94 @@
+.btn,
+.btn:active {
+    outline: none !important;
+    border: transparent;
+    border-radius: 0;
+    box-shadow: none !important;
+}
+
+
+.btn-primary {
+    background: $primary;
+}
+
+.btn-secondary {
+    background: $secondary;
+}
+
+.btn-success {
+    background: $secondary;
+}
+
+.btn-info {
+    background: $info;
+}
+
+.btn-light {
+    color: $dark;
+    background: $light;
+}
+
+.btn-dark {
+    color: $light;
+    background: $dark;
+}
+
+.btn-outline-primary {
+    color: $primary;
+    border: 1px solid $primary;
+
+    &:hover {
+        color: $light;
+        background: $primary;
+    }
+}
+
+.btn-outline-secondary {
+    color: $secondary;
+    border: 1px solid $secondary;
+
+    &:hover {
+        color: $light;
+        background: $secondary;
+    }
+}
+
+.btn-outline-success {
+    color: $success;
+    border: 1px solid $success;
+
+    &:hover {
+        color: $light;
+        background: $success;
+    }
+}
+
+.btn-outline-info {
+    color: $info;
+    border: 1px solid $info;
+
+    &:hover {
+        color: $light;
+        background: $info;
+    }
+}
+
+.btn-outline-light {
+    color: $light;
+    border: 1px solid $light;
+
+    &:hover {
+        color: $dark;
+        background: $light;
+    }
+}
+
+.btn-outline-dark {
+    color: $dark;
+    border: 1px solid $dark;
+
+    &:hover {
+        color: $light;
+        background: $dark;
+    }
+}
