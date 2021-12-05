@@ -1,0 +1,84 @@
+body {
+    @include font-family-1;
+    background: $light;
+}
+
+.font-family-1 {
+    @include font-family-1;
+}
+
+.font-family-2 {
+    @include font-family-2;
+}
+
+.a,
+a:hover,
+a:active,
+a:visited {
+    text-decoration: none !important;
+    cursor: pointer;
+}
+
+.link-primary {
+    color: $primary;
+}
+
+.link-secondary {
+    color: $secondary;
+}
+
+.link-success {
+    color: $success;
+}
+
+.link-info {
+    color: $info;
+}
+
+.link-light {
+    color: $light;
+}
+
+.link-dark {
+    color: $dark;
+}
+
+.bg-primary {
+    background: $primary;
+}
+
+.bg-secondary {
+    background: $secondary;
+}
+
+.bg-success {
+    background: $success;
+}
+
+.bg-info {
+    background: $info;
+}
+
+.bg-light {
+    background: $light;
+}
+
+.bg-dark {
+    background: $dark;
+}
+
+.bg-whatsapp {
+    background: $whatsapp;
+}
+
+.bg-transparent {
+    background: $transparent;
+}
+
+main{
+    min-height: 80vh;
+}
+
+.opacity-5{
+    opacity: .5;
+}
