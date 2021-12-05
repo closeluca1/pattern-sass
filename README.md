@@ -6,6 +6,10 @@ Os arquivos estão organizados com a inteção de adiantar o processo da criaç�
 - EN <br>
 The files are organized with the intention of advancing the process of creating and standardizing the SASS in its development. The SASS files from this release are being used with the release of: bootstrap@4.6.1 - jquery@3.4.1 - popper@2.11.0 - bootstrap-icons@^1.7.2 // Feel free to download, use and modify these files however you like.
 
+### To use
+- You can add the compiled CSS directly to the head of your project using the link below <br>
+`<link rel="stylesheet" href="https://closeluca1.github.io/pattern-sass/css/mainstyle.css">`
+
 # Images
 - package.json <br>
 ![image](https://user-images.githubusercontent.com/57973233/144753833-5dcc35c1-e64b-41e1-8e09-4026e1d78403.png)
