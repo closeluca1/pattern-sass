@@ -15,8 +15,10 @@ The files are organized with the intention of advancing the process of creating 
 - view on git hub pages
 https://closeluca1.github.io/pattern-sass/
 
-- The typography is responsive using the css clamp() function
+### More about _SASS
 
+- The typography is responsive using the css clamp() function
+- there are two font families, fixed to, _mixins.scss and being added to _main.scss using the classes, .font-family-1 && .font-family-2, with the site's default font-family-1 being added to the body and font-family-2 added in a class overlay the initial.
 
 # Images
 - package.json <br>
